@@ -17,5 +17,14 @@ module.exports= {
 		"http://www.w3.org/2000/01/rdf-schema#type": {
 			"@type": "http://www.w3.org/2000/01/rdf-schema#Class"
 		}
+		"http://www.w3.org/2000/01/rdf-schema#label": {
+		}
+		"http://www.w3.org/2000/01/rdf-schema#comment": {
+		}
+		"http://www.w3.org/2000/01/rdf-schema#domain": {
+			"@type": 
+		}
+		"http://www.w3.org/2000/01/rdf-schema#range": {
+		}
 	}
 }

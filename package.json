@@ -1,16 +1,16 @@
 {
-	"name": "owl-jsonld",
+	"name": "rdfs-jsonld",
 	"version": "1.0.0",
-	"description": "",
-	"main": "owl-jsonld.js",
+	"description": "Context for the owl 'rdfs' namespace.",
+	"main": "rdfs-jsonld.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://archive.voodoowarez.com/owl-jsonld"
+		"url": "https://archive.voodoowarez.com/rdfs-jsonld"
 	},
-	"keywords": ["owl", "jsonld"],
+	"keywords": ["rdfs", "owl", "jsonld"],
 	"author": "rektide de la faye",
 	"license": "X11"
 }
