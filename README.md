@@ -1,4 +1,4 @@
-# rdfs-jsonld
+# rdfs-context
 
 > JSON-LD Context for the owl `http://www.w3.org/2000/01/rdf-schema#`/'rdfs' namespace.
 

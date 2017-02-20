@@ -1,16 +1,16 @@
 {
-	"name": "rdfs-jsonld",
-	"version": "1.1.0",
-	"description": "JSON-LD Context for the owl `http://www.w3.org/2000/01/rdf-schema#`/'rdfs' namespace.",
-	"main": "rdfs-jsonld.js",
+	"name": "rdfs-context",
+	"version": "1.2.0",
+	"description": "JSON-LD Context for the OWL `http://www.w3.org/2000/01/rdf-schema#`/'rdfs' namespace.",
+	"main": "rdfs-context.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://archive.voodoowarez.com/rdfs-jsonld"
+		"url": "https://archive.voodoowarez.com/rdfs-context"
 	},
-	"keywords": ["rdfs", "owl", "jsonld"],
+	"keywords": ["jsonld-context", "rdfs", "OWL", "JSON-LD", "jsonld", "context"],
 	"author": "rektide de la faye",
 	"license": "X11"
 }
