@@ -1,0 +1,16 @@
+{
+	"name": "owl-jsonld",
+	"version": "1.0.0",
+	"description": "",
+	"main": "owl-jsonld.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/owl-jsonld"
+	},
+	"keywords": ["owl", "jsonld"],
+	"author": "rektide de la faye",
+	"license": "X11"
+}
