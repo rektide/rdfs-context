@@ -1,7 +1,7 @@
 {
 	"name": "rdfs-jsonld",
 	"version": "1.0.0",
-	"description": "Context for the owl 'rdfs' namespace.",
+	"description": "JSON-LD Context for the owl `http://www.w3.org/2000/01/rdf-schema#`/'rdfs' namespace.",
 	"main": "rdfs-jsonld.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
