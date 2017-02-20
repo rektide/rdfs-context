@@ -1,1 +1,1 @@
-module.exports= require( "./@id.json")
+module.exports= require( "./@id.json")["@id"]

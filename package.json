@@ -1,6 +1,6 @@
 {
 	"name": "rdfs-jsonld",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "JSON-LD Context for the owl `http://www.w3.org/2000/01/rdf-schema#`/'rdfs' namespace.",
 	"main": "rdfs-jsonld.js",
 	"scripts": {
