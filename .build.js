@@ -29,9 +29,19 @@ function rdfSerializerJsonld( graph){
 }
 
 function main(){
-	rdf()
-		.then( rdfParserN3)
-		.then( rdfSerializerJsonld)
+	var
+	  parsed= rdf().then( rdfParserN3),
+	  output,
+	  prefixes= process.argv.reduce(function(acc, cur, i){
+		if( cur=== "--prefixes") return true
+		return acc
+	  }, false)
+	if( prefixes){
+		output= parsed.then( parse=> parse.prefixes)
+	}else{
+		output= parsed.then( rdfSerializerJsonld)
+	}
+	output
 		.then( jsonld=> JSON.stringify( jsonld, null, "\t"))
 		.then( console.log)
 }
