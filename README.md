@@ -1,6 +1,6 @@
 # rdfs-context
 
-> JSON-LD Context for the owl `http://www.w3.org/2000/01/rdf-schema#`/'rdfs' namespace.
+> JSON-LD Context for the RDF Schema `http://www.w3.org/2000/01/rdf-schema#`/'rdfs' namespace.
 
 This collection of JSON-LD contexts implements the `rdfs` namespace `http://www.w3.org/2000/01/rdf-schema#` (not to be confused with the `rdf` namespace at `http://www.w3.org/1999/02/22-rdf-syntax-ns#`).
 
