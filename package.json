@@ -5,13 +5,28 @@
 	"main": "rdfs-context.js",
 	"scripts": {
 		"download": "curl $(./@id.js) -o rdf-schema.rdf",
+		"build": "./.build.js > rdfs-context.json",
+		"prepublish": "npm run download; npm run build",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://archive.voodoowarez.com/rdfs-context"
 	},
-	"keywords": ["jsonld-context", "rdfs", "RDF Schema", "JSON-LD", "jsonld", "context"],
+	"keywords": [
+		"jsonld-context",
+		"rdfs",
+		"RDF Schema",
+		"JSON-LD",
+		"jsonld",
+		"context"
+	],
 	"author": "rektide de la faye",
-	"license": "X11"
+	"license": "X11",
+	"devDependencies": {
+		"es6-promisify": "^5.0.0",
+		"jsonld": "^0.4.11",
+		"rdf-parser-n3": "^0.3.0",
+		"rdf-serializer-jsonld": "^0.3.0"
+	}
 }
